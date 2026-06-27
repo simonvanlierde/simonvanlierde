@@ -20,7 +20,7 @@ RELab collects disassembly data on durable goods to close a long-standing produc
 
 ## Selected work
 
-**[credit-heatmap](https://github.com/simonvanlierde/credit-heatmap)** is a full-stack web tool for building CRediT author-contribution statements, with an interactive role matrix and JATS4R XML / JSON export for journal submission. Built on Next.js 15 with a framework-agnostic TypeScript core that runs the domain logic in the browser; tested with Vitest and Playwright, and deployable both as a Docker container and on Cloudflare Workers (OpenNext).
+**[credit-heatmap](https://github.com/simonvanlierde/credit-heatmap)** is a full-stack web tool for building CRediT author-contribution statements, with an interactive role matrix and JATS4R XML / JSON export for journal submission. Built on Next.js 15 with a framework-agnostic TypeScript core that runs the domain logic in the browser, deployable both as a Docker container and on Cloudflare Workers (OpenNext).
 Live demo at [credit.duinlab.nl](https://credit.duinlab.nl)
 
 **[msc-thesis-ie](https://github.com/simonvanlierde/msc-thesis-ie)** is my MSc Industrial Ecology thesis (Leiden / TU Delft): a bottom-up model of building cooling demand in The Hague and its life-cycle environmental impacts, built from BAG geospatial data, an hourly heat-balance model, and an LCA layer. It is published in the TU Delft repository, with the dataset archived on Zenodo.
