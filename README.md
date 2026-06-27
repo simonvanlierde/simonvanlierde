@@ -36,7 +36,7 @@ Outside work I build small web apps I keep tinkering with, like [bikespot](https
 ---
 
 ## Elsewhere
-
+- 🌐 Website: [simonvanlierde.github.io](https://simonvanlierde.github.io)
 - 🆔 ORCID: [0009-0006-6953-909X](https://orcid.org/0009-0006-6953-909X)
 - 💼 LinkedIn: [in/simon-van-lierde](https://www.linkedin.com/in/simon-van-lierde/)
 - 🎓 Leiden profile: [universiteitleiden.nl](https://www.universiteitleiden.nl/en/staffmembers/simon-van-lierde)
