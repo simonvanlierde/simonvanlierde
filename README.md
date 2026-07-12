@@ -21,10 +21,11 @@ RELab collects disassembly data on durable goods to close a long-standing produc
 
 ## Selected work
 
-**[credit-heatmap](https://github.com/simonvanlierde/credit-heatmap)** is a full-stack web tool for building CRediT author-contribution statements, with an interactive role matrix and JATS4R XML / JSON export for journal submission. Built on Next.js 15 with a framework-agnostic TypeScript core that runs the domain logic in the browser, deployable both as a Docker container and on Cloudflare Workers (OpenNext).
+**[credit-heatmap](https://github.com/simonvanlierde/credit-heatmap)** is a full-stack web tool for building CRediT author-contribution statements, with an interactive role matrix and JATS4R XML / JSON export for journal submission. Built on Next.js 15 with a framework-agnostic TypeScript core that runs the domain logic in the browser, deployable on Cloudflare Workers (OpenNext).
 Live demo at [credit.duinlab.nl](https://credit.duinlab.nl)
 
-**[msc-thesis-ie](https://github.com/simonvanlierde/msc-thesis-ie)** is my MSc Industrial Ecology thesis (Leiden / TU Delft): a bottom-up model of building cooling demand in The Hague and its life-cycle environmental impacts, built from BAG geospatial data, an hourly heat-balance model, and an LCA layer. It is published in the TU Delft repository, with the dataset archived on Zenodo.
+**[msc-thesis-ie](https://github.com/simonvanlierde/msc-thesis-ie)** is my MSc Industrial Ecology thesis (Leiden / TU Delft): a bottom-up model of building cooling demand in The Hague and its life-cycle environmental impacts, built from BAG geospatial data, an hourly heat-balance model, and an LCA layer. It is published in the TU Delft repository, with the dataset archived on Zenodo. Interactive results dashboard at [simonvanlierde.github.io/msc-thesis-ie](https://simonvanlierde.github.io/msc-thesis-ie)
+
 
 **[monitoring](https://github.com/CMLPlatform/monitoring)** is the observability stack for CML's research platforms: an OpenTelemetry pipeline (Grafana, Loki, Tempo, Prometheus) collecting logs, traces, and metrics from RELab and other services, with CI-validated configs and a one-command demo.
 
@@ -37,7 +38,7 @@ I maintain reusable tooling I need in my own work, like [check-json5](https://gi
 Outside work I build small web apps I keep tinkering with:
 
 - [6-second-scribbles](https://6ss.duinlab.nl), a fast drawing game
-- [scattergories](https://github.com/simonvanlierde/scattergories), a browser word game
+- [scattergories](https://scattergories.duinlab.nl), a browser word game
 - [tide](https://tide.duinlab.nl), a period tracker
 - [bikespot](https://bikespot.duinlab.nl), a bike-parking tracker
 
