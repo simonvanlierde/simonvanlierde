@@ -11,7 +11,7 @@ Main stack: Python, FastAPI, TypeScript/React, PostgreSQL, and Docker.
 
 ### [Reverse Engineering Lab (RELab)](https://github.com/CMLPlatform/relab)
 
-RELab collects disassembly data on durable goods to close a long-standing product-data gap in industrial ecology. I designed and built the platform end to end: a FastAPI backend, a PostgreSQL data model built for LCA, and an Expo/React Native frontend. In active use as lab infrastructure at CML: 50+ products disassembled, 1,250+ components and 3,000+ photos catalogued, with Repair Café pilots planned.
+RELab collects disassembly data on durable goods to close a long-standing product-data gap in industrial ecology. I designed and built the platform end to end: a FastAPI backend, a PostgreSQL data model built for LCA, and an Expo/React Native frontend. In active use as lab infrastructure at CML: 78 products disassembled, 1,331 components and 3,610 photos catalogued, across a lab deployment and two teardown workshops with 135 participants.
 
 - 🌐 Live platform: [app.cml-relab.org](https://app.cml-relab.org)
 - 📖 Documentation: [docs.cml-relab.org](https://docs.cml-relab.org)
@@ -21,13 +21,16 @@ RELab collects disassembly data on durable goods to close a long-standing produc
 
 ## Selected work
 
-**[credit-heatmap](https://github.com/simonvanlierde/credit-heatmap)** is a full-stack web tool for building CRediT author-contribution statements, with an interactive role matrix and JATS4R XML / JSON export for journal submission. Built on Next.js 15 with a framework-agnostic TypeScript core that runs the domain logic in the browser, deployable on Cloudflare Workers (OpenNext).
-Live demo at [credit.duinlab.nl](https://credit.duinlab.nl)
+**[monitoring](https://github.com/CMLPlatform/monitoring)** is the observability stack for CML's research platforms: an OpenTelemetry pipeline (Grafana, Loki, Tempo, Prometheus) collecting logs, traces, and metrics from RELab and other services, with CI-validated configs and a one-command demo.
 
 **[msc-thesis-ie](https://github.com/simonvanlierde/msc-thesis-ie)** is my MSc Industrial Ecology thesis (Leiden / TU Delft): a bottom-up model of building cooling demand in The Hague and its life-cycle environmental impacts, built from BAG geospatial data, an hourly heat-balance model, and an LCA layer. It is published in the TU Delft repository, with the dataset archived on Zenodo. Interactive results dashboard at [simonvanlierde.github.io/msc-thesis-ie](https://simonvanlierde.github.io/msc-thesis-ie)
 
+**[cv-ie-taxonomy](https://github.com/simonvanlierde/cv-ie-taxonomy)** is an interactive exploded-teardown map of a computer-vision taxonomy for industrial ecology, built as a companion visual for an upcoming publication: a custom React/SVG scene with scroll-driven exploration. Live at [simonvanlierde.github.io/cv-ie-taxonomy](https://simonvanlierde.github.io/cv-ie-taxonomy/)
 
-**[monitoring](https://github.com/CMLPlatform/monitoring)** is the observability stack for CML's research platforms: an OpenTelemetry pipeline (Grafana, Loki, Tempo, Prometheus) collecting logs, traces, and metrics from RELab and other services, with CI-validated configs and a one-command demo.
+**[credit-heatmap](https://github.com/simonvanlierde/credit-heatmap)** is a full-stack web tool for building CRediT author-contribution statements, with an interactive role matrix and JATS4R XML / JSON export for journal submission. Built on Next.js 15 with a framework-agnostic TypeScript core that runs the domain logic in the browser, deployable on Cloudflare Workers (OpenNext).
+Live demo at [credit.duinlab.nl](https://credit.duinlab.nl)
+
+In progress: an [AI4IE resource hub](https://github.com/simonvanlierde/ai4ie-demo) and a [project gallery](https://github.com/CMLPlatform/cml-gallery) for CML, both early prototypes.
 
 ---
 
