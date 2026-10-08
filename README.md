@@ -27,8 +27,7 @@ RELab collects disassembly data on durable goods to close a long-standing produc
 
 **[cv-ie-taxonomy](https://github.com/simonvanlierde/cv-ie-taxonomy)** is an interactive exploded-teardown map of a computer-vision taxonomy for industrial ecology, built as a companion visual for an upcoming publication: a custom React/SVG scene with scroll-driven exploration. Live at [simonvanlierde.github.io/cv-ie-taxonomy](https://simonvanlierde.github.io/cv-ie-taxonomy/)
 
-**[credit-heatmap](https://github.com/simonvanlierde/credit-heatmap)** is a full-stack web tool for building CRediT author-contribution statements, with an interactive role matrix and JATS4R XML / JSON export for journal submission. Built on Next.js 15 with a framework-agnostic TypeScript core that runs the domain logic in the browser, deployable on Cloudflare Workers (OpenNext).
-Live demo at [credit.duinlab.nl](https://credit.duinlab.nl)
+**[credit-matrix](https://github.com/simonvanlierde/credit-matrix)** helps co-authors draft CRediT contribution statements together, then exports the grid as a contribution heatmap plus JATS4R XML, CSV, JSON or Markdown. It runs fully in the browser, works offline and comes in nine languages. Built with Next.js 16 and TypeScript, archived on [Zenodo](https://doi.org/10.5281/zenodo.21213659). Live at [credit.duinlab.nl](https://credit.duinlab.nl)
 
 In progress: an [AI4IE resource hub](https://github.com/simonvanlierde/ai4ie-demo) and a [project gallery](https://github.com/CMLPlatform/cml-gallery) for CML, both early prototypes.
 
@@ -36,14 +35,14 @@ In progress: an [AI4IE resource hub](https://github.com/simonvanlierde/ai4ie-dem
 
 ## Open-source contributions
 
-I maintain reusable tooling I need in my own work, like [check-json5](https://github.com/simonvanlierde/check-json5), a pre-commit hook whose fast-path parser makes it roughly 500× faster on large JSON files, and I send small fixes upstream to tools I use, mostly in the FastAPI and open-LCA ecosystems, such as [fastapi-mail](https://github.com/sabuhish/fastapi-mail/pull/283) and [sentier_data_tools](https://github.com/sentier-dev/sentier_data_tools/pull/2).
+I maintain reusable tooling I need in my own work, like [check-json5](https://github.com/simonvanlierde/check-json5), a pre-commit hook whose fast-path parser makes it roughly 500× faster on large JSON files, and [project-templates](https://github.com/simonvanlierde/project-templates), Copier templates that start a Python, TypeScript, Rust or Go project with linting, tests and CI already set up. I also send small fixes upstream to tools I use, mostly in the FastAPI and open-LCA ecosystems, such as [fastapi-mail](https://github.com/sabuhish/fastapi-mail/pull/283) and [sentier_data_tools](https://github.com/sentier-dev/sentier_data_tools/pull/2).
 
 Outside work I build small web apps I keep tinkering with:
 
-- [6-second-scribbles](https://6ss.duinlab.nl), a fast drawing game
-- [scattergories](https://scattergories.duinlab.nl), a browser word game
-- [tide](https://tide.duinlab.nl), a period tracker
-- [bikespot](https://bikespot.duinlab.nl), a bike-parking tracker
+- [6-second-scribbles](https://github.com/simonvanlierde/6-second-scribbles), a fast drawing game ([live](https://6ss.duinlab.nl))
+- [scattergories](https://github.com/simonvanlierde/scattergories), a browser word game ([live](https://scattergories.duinlab.nl))
+- [tide](https://github.com/simonvanlierde/tide), a period tracker ([live](https://tide.duinlab.nl))
+- [bikespot](https://github.com/simonvanlierde/bikespot), a bike-parking tracker ([live](https://bikespot.duinlab.nl))
 
 ---
 
