@@ -9,11 +9,11 @@ Main stack: Python, FastAPI, TypeScript/React, PostgreSQL, and Docker.
 
 ## Featured project
 
-### [Reverse Engineering Lab (RELab)](https://github.com/CMLPlatform/relab)
+### [Reverse Engineering Lab (ReLab)](https://github.com/CMLPlatform/relab)
 
-Industrial ecology has long been short of data on what products are made of. RELab helps close that gap by recording how durable goods come apart. I designed and built the platform end to end: a FastAPI backend, a PostgreSQL data model built for life-cycle assessment (LCA), and an Expo/React Native frontend.
+Industrial ecology has long been short of data on what products are made of. ReLab helps close that gap by recording how durable goods come apart. I designed and built the platform end to end: a FastAPI backend, a PostgreSQL data model built for life-cycle assessment (LCA), and an Expo/React Native frontend.
 
-CML uses it as lab infrastructure. So far we've taken apart 78 products and catalogued 1,331 components and 3,610 photos, in the lab and at two teardown workshops with 135 participants.
+CML uses it as lab infrastructure. By 12 October 2026 we had taken apart 94 products and catalogued 1,779 components and 4,455 photos, in the lab and at two teardown workshops with 135 participants.
 
 - 🌐 Live platform: [app.cml-relab.org](https://app.cml-relab.org)
 - 📖 Documentation: [docs.cml-relab.org](https://docs.cml-relab.org)
@@ -23,7 +23,7 @@ CML uses it as lab infrastructure. So far we've taken apart 78 products and cata
 
 ## Selected work
 
-**[monitoring](https://github.com/CMLPlatform/monitoring)** collects logs, traces, and metrics from RELab and CML's other research platforms in one place. It's an OpenTelemetry pipeline (Grafana, Loki, Tempo, Prometheus). CI validates the configs, and one command starts a demo.
+**[monitoring](https://github.com/CMLPlatform/monitoring)** collects logs, traces, and metrics from ReLab and CML's other research platforms in one place. It's an OpenTelemetry pipeline (Grafana, Loki, Tempo, Prometheus). CI validates the configs, and one command starts a demo.
 
 **[msc-thesis-ie](https://github.com/simonvanlierde/msc-thesis-ie)** is my MSc Industrial Ecology thesis (Leiden / TU Delft). It models, from the bottom up, how much cooling the buildings in The Hague need and what that cooling does to the environment over its life cycle. It combines BAG geospatial data (the Dutch building register), an hourly heat-balance model, and an LCA layer. The thesis is in the TU Delft repository and the dataset is on Zenodo. You can explore the results in a dashboard at [simonvanlierde.github.io/msc-thesis-ie](https://simonvanlierde.github.io/msc-thesis-ie)
 
@@ -37,7 +37,7 @@ In progress: an [AI4IE resource hub](https://github.com/simonvanlierde/ai4ie-dem
 
 ## Open-source contributions
 
-I maintain small tools I need in my own work. [check-json5](https://github.com/simonvanlierde/check-json5) is a pre-commit hook with a fast path in its parser that makes it roughly 500× faster on large JSON files. [project-templates](https://github.com/simonvanlierde/project-templates) holds Copier templates that start a Python, TypeScript, Rust or Go project with linting, tests and CI already set up. I also send small fixes back to tools I use, mostly projects around FastAPI and open LCA, such as [fastapi-mail](https://github.com/sabuhish/fastapi-mail/pull/283) and [sentier_data_tools](https://github.com/sentier-dev/sentier_data_tools/pull/2).
+I maintain small tools I need in my own work. [check-json5](https://github.com/simonvanlierde/check-json5) is a pre-commit hook with a fast path in its parser that makes it about 660 to 750 times faster on JSON files from 47 KB to 2 MB. [project-templates](https://github.com/simonvanlierde/project-templates) holds Copier templates that start a Python, TypeScript, Rust or Go project, optionally with Docker, with linting, tests and CI already set up. I also send small fixes back to tools I use, mostly projects around FastAPI and open LCA, such as [fastapi-mail](https://github.com/sabuhish/fastapi-mail/pull/283) and [sentier_data_tools](https://github.com/sentier-dev/sentier_data_tools/pull/2).
 
 Outside work I build small web apps and keep tinkering with them:
 
