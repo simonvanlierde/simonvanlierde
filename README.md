@@ -4,7 +4,7 @@
 
 I'm doing a PhD at CML, the Institute of Environmental Sciences at Leiden University, in which I build the research software and data infrastructure for industrial ecology and the circular economy. The software and the data are open.
 
-- 🌐 Projects and CV: [simonvanlierde.github.io](https://simonvanlierde.github.io)
+- 🌐 Projects and CV: [simonvanlierde.com](https://simonvanlierde.com)
 - 🔧 Main project: [R9lab](https://github.com/CMLPlatform/r9lab), where we record what products are made of by taking them apart ([app.r9lab.io](https://app.r9lab.io))
 - 📈 Infrastructure: [CML monitoring](https://github.com/CMLPlatform/monitoring), the shared OpenTelemetry and Grafana stack for CML's research software
 - 🆔 ORCID: [0009-0006-6953-909X](https://orcid.org/0009-0006-6953-909X)
